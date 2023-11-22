@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useLocation } from "react-router-dom";
 import "./PeopleDetailPage.css";
 import { useState } from "react";
@@ -42,9 +43,6 @@ const PeopleDetail = () => {
     fetchAllData();
   }, [data]);
 
-  // if (loading) {
-  //   return <BaseLoading />;
-  // } else {
   return (
     <div className="detail-container">
       <div className="logo-container">
