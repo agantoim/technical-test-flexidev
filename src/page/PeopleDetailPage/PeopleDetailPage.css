@@ -1,0 +1,36 @@
+.detail-container {
+    font-family: 'Star Jedi', sans-serif;
+}
+
+.profile-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+.profile-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.last-item {
+    grid-column: span 2;
+    text-align: center;
+}
+
+.films-container {
+    margin: 10px 0px
+}
+
+.films-title {
+
+}
+
+.films-opening-crawl {
+    font-style: italic;
+    background-color: #495363;
+    padding: 20px;
+    border-radius: 9px;
+}

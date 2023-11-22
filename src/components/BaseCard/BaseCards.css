@@ -1,0 +1,53 @@
+.card-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #e2e2e1;
+    border-radius: 9px;
+    font-family: 'Star Jedi', sans-serif;
+}
+
+.card-container :hover {
+    cursor: pointer;
+}
+
+.card-title-name {
+    border-top-left-radius: 9px ;
+    border-top-right-radius: 9px ;
+    padding: 10px 0px;
+    background-color: #121b26;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.card-content {
+    border-bottom-left-radius: 9px ;
+    border-bottom-right-radius: 9px ;
+    background-color: #5f6f77;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+}
+
+.card-content-title {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-content-data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.info-title {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.detail-button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10px;
+}
