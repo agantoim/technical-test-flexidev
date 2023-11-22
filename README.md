@@ -1,7 +1,7 @@
 # React + Vite
 
 Curently i cannot deploy the project using Github Pages,
-the porject already build with this code, but it always breaking if i try to run it via live server or accessing via Github Pages.
+the porject already build with this code using gh-pages method, but it always breaking if i try to run it via live server or accessing via Github Pages.
 
 I'm using Vite so the project can be run with minimum requirement.
 Also i'm using PNPM instead of NPM to run the project so it can be more faster.
