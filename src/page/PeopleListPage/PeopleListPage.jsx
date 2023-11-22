@@ -45,6 +45,9 @@ const PeopleList = () => {
 
   return (
     <div className="people-list-container">
+      <div className="logo-container">
+        <img className="logo" src="src/assets/star-wars-logo.svg"></img>
+      </div>
       <h1>List of Star Wars People</h1>
       {loading ? (
         <BaseLoading />
